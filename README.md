@@ -1,30 +1,35 @@
-# movie_view
+# 电影网站项目说明
+该项目是一个基于vue搭建的电影网站学习项目。逐步实现以下功能
+# 该项目包含的功能如下：
+-  网站的电影显示下载地址;
+-  网站的电影添加、修改、删除等后台管理;
+-  网站的前端预览;
+## 用户系统
+-  用户的注册功能;
+-  用户的登陆功能;
+-  用户资料的的显示功能;
+-  用户对于每个资源的评论功能;
+-  用户对于资源的点赞功能;
+-  用户对于资源的下载功能;
+-  用户的基本权限控制功能;
+-  用户的密码找回功能;
+-  用户的对bug或者需求发送站内信给管理员的功能;
+-  后台对于用户评论删除功能;
+-  后台对于用户审核功能;
+-  后台对于用户的管理(封停，重置密码等);
+-  后台对用户的权限控制;
+## 其他显示部分
+-  主页的推荐及更新排行榜功能;
+-  主页的文章功能;
+-  后台对主页的推荐及大图的编辑功能;
+-  后台对主页的文章查看功能;
 
-> A Vue.js project
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
+## 网站路由设计
+网站路由分为2类，用户和后台，用户路由为：
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+http://url.com/访问的路由具体名称
+```
+后台路由为：
+```
+http://url.com/admin/访问的路由具体名称
+```
